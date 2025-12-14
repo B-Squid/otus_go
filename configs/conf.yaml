@@ -1,0 +1,25 @@
+#user
+userName: someUser             #имя пользователя
+userSalt: q1w2e3r4t5y          #уникальный идентификатор. Используется для "подсаливания" имен очередей и пр.
+authtoken: 00000000            #токен авторизации
+
+#connections
+sdServer: https://host.domain  #адрес сервера ServiceDesk
+sdServerPort: 443              #порт сервера ServiceDesk
+apiPath: /api/v3/requests      #путь api получения данных
+rmqServer: https://host.domain #адрес сервера RMQ
+rmqServerPort: 5672            #порт сервера RMQ
+pgServer: https://host.domain  #адрес сервера PgSql
+pgServerPort: 5432             #порт сервера PgSql
+
+#user filter
+filterHeader: myfilter         #пользовательский фильтр заголовков сообщений. Пока не динамический.
+filterBody: myfilter           #пользовательский фильтр тела сообщений. Пока не динамический.
+
+#common
+pollingEnabled: !!bool true    #обратно по сути настройке webhook
+pollingFrequencySec: !!int 5   #частота опроса, при включенной настройке webhook не используется
+rowCount: !!int 50             #окно поиска новых сообщений
+
+#rules
+RouteRule: someRule            #правило маршрутизации сообщения

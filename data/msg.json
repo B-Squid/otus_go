@@ -1,0 +1,100 @@
+{
+"cancel_requested": false,
+"cancel_requested_is_pending": false,
+"created_by": {
+    "department": {
+        "id": 341,
+        "name": "Отдел по работе с работой",
+        "site": {
+            "id": 3281,
+            "name": "Супер департамент"
+        }
+    },
+    "email_id": "DTuneva@domain",
+    "id": "992343",
+    "is_vipuser": false,
+    "mobile": "8-989-99-94-922",
+    "name": "Соркова Светлана",
+    "phone": "4566",
+    "profile_pic": {
+        "content-url": "/image/profile-img2.svg",
+        "name": "profile-img2.svg"
+    }
+},
+"created_time": {
+    "display_value": "Feb 29, 2029 12:18 AM",
+    "value": "17384423231263"
+},
+"due_by_time": null,
+"group": {
+    "id": "2309",
+    "name": "Супер группа",
+    "site": {
+        "id": 3001
+    }
+},
+"id": "861235",
+"is_overdue": false,
+"is_service_request": false,
+"priority": {
+    "color": "#003399",
+    "id": "604",
+    "name": "3 Существенный"
+},
+"requester": {
+    "department": {
+        "id": 2868,
+        "name": "Отдел по работе с работой",
+        "site": {
+            "id": 3001,
+            "name": "Супер департамент"
+        }
+    },
+    "email_id": "DTuneva@domain",
+    "id": "992343",
+    "is_vipuser": false,
+    "mobile": "8-989-99-94-922",
+    "name": "Соркова Светлана",
+    "phone": "4566",
+    "profile_pic": {
+        "content-url": "/image/profile-img2.svg",
+        "name": "profile-img2.svg"
+    }
+},
+"response_time_elapsed": null,
+"short_description": "Коллеги, привет!&nbsp;прошу проверить работу для Pro-rabotaВот\nработа на Работа.ру&nbsp;2939556554 Ей присвоили номер - 125, тогда как всем остальным подобным\nработам на Работе в этом и предыдущих месяцах присвоили номер более 140. Заранее спасибо!&nbsp;",
+"site": {
+    "id": "3001",
+    "name": "Супер департамент"
+},
+"status": {
+    "color": "#0066ff",
+    "id": "1",
+    "name": "Open"
+},
+"subject": "Система :  : проверить работу",
+"technician": {
+    "department": {
+        "id": 14,
+        "name": "Супер департамент",
+        "site": null
+    },
+    "email_id": "SuperGroup@domain",
+    "id": "8683636",
+    "is_vipuser": false,
+    "mobile": "",
+    "name": "Супер группа",
+    "phone": "",
+    "profile_pic": {
+        "content-url": "/image/profile-img2.svg",
+        "name": "profile-img2.svg"
+    }
+},
+"template": {
+    "id": "5644",
+    "is_service_template": false,
+    "name": "Заявка по системе - Система",
+    "service_category": null
+},
+"time_elapsed": null
+}

@@ -1,3 +1,3 @@
-module github.com/otus_go
+module canopy
 
 go 1.24.3
