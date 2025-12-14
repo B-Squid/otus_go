@@ -1,10 +1,13 @@
 package messages
 
+import "sync"
+
 type Sorter interface {
 	Getid() int
 }
 
 type SdMessage struct {
+	SdmLocker sync.RWMutex
 	CreatedBy string
 	Id        int
 }
@@ -14,6 +17,8 @@ func (i SdMessage) Getid() int {
 }
 
 type RichMessage struct {
+	RmLocker  sync.RWMutex
+	CreatedBy string
 	Id        int
 	RouteRule string
 }
@@ -23,7 +28,9 @@ func (i RichMessage) Getid() int {
 }
 
 type DbMessage struct {
-	Id int
+	DmLocker  sync.RWMutex
+	CreatedBy string
+	Id        int
 }
 
 func (i DbMessage) Getid() int {
