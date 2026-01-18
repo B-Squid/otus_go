@@ -7,7 +7,6 @@ import (
 	"strconv"
 )
 
-// var props []string
 var props = make(map[string]string)
 
 var black string = "#"
@@ -135,11 +134,6 @@ func create_board(props map[string]string) {
 	fmt.Print(board)
 }
 
-func main() {
-	props := dialog()
-	create_board(props)
-}
-
 func validate_args(args ...string) {
 	for _, arg := range args {
 		tst, _ := strconv.Atoi(arg)
@@ -153,4 +147,9 @@ func validate_args(args ...string) {
 			os.Exit(1)
 		}
 	}
+}
+
+func main() {
+	props := dialog()
+	create_board(props)
 }
